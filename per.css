@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+#logo
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.bar
+{
+    position: fixed;
+    background-color: black;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.26);
+    width: 100%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.button
+{
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 30px;
+    border-radius: 5%;
+    text-align: center;
+    color:  rgba(240, 81, 54);
+    padding: 10px;
+    display: block;
+    background-color: white;
+}
+.navlink
+{
+    text-decoration: none;
+    color:  rgba(240, 81, 54);
+    cursor: pointer;
+    margin-right: 30px;
+}
+.navlink:hover
+{
+    color: white;
+}
+.bar ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+}
+#home
+{
+    background-color: white;
+    color: black;
+    padding-top: 300px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 300px;    
+}
+
+#home h1
+{
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+}
+#bio article h1{
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+#bio article p{
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+#bio
+{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 150px;
+}
+#bio article
+{
+    padding-left: 50px;  
+}
+.link-button
+{
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px 2px;
+    cursor: pointer;
+    background-color:rgba(240, 81, 54); 
+    color: white;
+    border: 2px solid rgba(240, 81, 54);
+    border-radius: 2%;
+}
+.img1
+{
+    display: block;
+    width: 800px;
+    height: auto;
+    border: 1px solid rgb(0, 0, 0);
+    
+    border-radius: 50%;
+    overflow: hidden;
+}
+#port{
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 17%;
+    margin-bottom: 0%;
+    background-color: white;;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#port h2,p{
+    color: white;
+}
+hr{
+    width: 900px;
+    margin-bottom: 20px;
+}
+#port h2{
+    padding: 20px;
+    color: black;
+    padding-bottom: 30px;
+
+}
+#port #top{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: black;  
+}
+.projects
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-centered;
+}
+.projects h4{
+    font-size: 25px;
+    color: white;
+}
+.projects p{
+    color: white;
+    padding-bottom: 50px;
+}
+.small-icon
+{
+    height:50px;
+    width: 50px;
+    padding-bottom: 12%;
+}
+.projects article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    margin: 20px 0px;
+    margin-right: 10px;
+}
+.projects article p{
+    color: white;
+}
+.projects article p,h2,img{
+    text-align: center;
+    padding: 20px 5px 0 5px;
+}
+.language{
+    width: 30%;
+}
+.skills h4{
+    list-style: none;
+}
+progress{
+    height: 10px;
+    border-radius: 90%;
+    width: 100%;
+}
+#skills ul{
+    list-style: none;
+    font-size: 1.5em;
+}
+#skills ul li{
+    margin: 10px 0px;
+}
+#skills h3
+{
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 30px;
+}
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20%;
+}
+.tech p{
+    font-size: larger;
+}
+.language progress{
+    height: 10px;
+    border-radius: 90%;
+    width: 80%;
+
+}
+.techskill progress{
+    height: 10px;
+    border-radius: 90%;
+    width: 160%;
+
+}
+#contact
+{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#contact h2
+{
+    padding-top: 2%;    
+    padding-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+#contact p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1.5px;
+    margin: auto;
+}
+
+#contact img{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    color: black;
+    margin-right: 5px;
+}
